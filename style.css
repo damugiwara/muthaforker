@@ -14,12 +14,6 @@ html{
     font-size: 62.5%;
 }
 
-@media (max-width: 600px) {
-    .btn {
-        margin-right: 0;
-        margin-bottom: 15px; /* Adjust as needed */
-    }
-}
 
 body{
     width: 100%;
@@ -191,6 +185,13 @@ span{
     cursor: pointer;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .btn {
+        margin-right: 0;
+        margin-bottom: 20px; 
+    }
 }
 
 .btn:hover{
